@@ -1,0 +1,46 @@
+:root {
+    --mainColor: #27273F;
+    --mainBackgroundColor: #212335;
+    --primaryColor: #CF2029;
+    --secondaryColor: #8E8EA9;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+
+/* .nav-link {
+    color: #8E8EA9 !important;
+} */
+
+.nav-link.active {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+/* END NAVBAR */
+
+/* HERO */
+#bg-hero {
+    width: 100%;
+    height: 700px;
+    background: url('../../images/hero/bg-hero.jpg');
+    background-size: cover;
+    box-shadow: inset 0px 0px 100px 120px #27273F !important;
+}
+/* END HERO */
+
+/* CTA */
+.heading-cta {
+    color: #ffffff;
+}
+
+.card-cta {
+    background-color: var(--mainBackgroundColor);
+    color: #ffffff;
+}
+/* END CTA */
